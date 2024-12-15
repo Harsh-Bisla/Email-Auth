@@ -12,7 +12,7 @@ const connectMongoDb = require('./dbConnection');
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
-    origin: "https://email-auth-one.vercel.app/"
+    origin: "https://email-auth-one.vercel.app"
 }));
 
 //mongo connection
