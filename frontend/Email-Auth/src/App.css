@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+.homepage-wrapper {
+  width: 100%;
+  height: 100vh;
+    background-image: url("./assets/bg_img.png");
+}
+
+.navbar {
+  width:90%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+}
+
+.login-btn-home {
+  border: 1px solid rgba(0, 0, 0, 0.479);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  gap: 10px;
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.046);
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s linear;
+
+  &:hover {
+    transition: all 0.2s linear;
+    background-color: rgba(128, 128, 128, 0.1);
+  }
+}
+
+.header-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details {
+  max-width: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  & h2 {
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  & h1 {
+    font-weight: 500;
+    font-size: 32px;
+    margin: 8px 0px;
+  }
+
+  & p {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.676);
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+}
+
+.hand-image-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  & img {
+    margin-bottom: -5px;
+  }
+}
+
+.get-started-btn {
+  padding: 10px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.457);
+  border-radius: 20px;
+  background-color: transparent;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.79);
+  font-weight: 500;
+}
+
+
+.signup-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #c1aeff, #ffffff);
+}
+
+.signup-container {
+  background-color: #0d182c;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  max-width: 250px;
+  width: 100%;
+
+  & h1 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+  & p {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #9ca1b4;
+  }
+}
+
+.input-box {
+  background-color: #313b5e;
+  display: flex;
+  border-radius: 20px;
+  padding-left: 10px;
+  align-items: center;
+  margin: 15px 0px;
+
+  & input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding: 8px 0px;
+    padding-left: 10px;
+    color: white;
+    border-radius: 20px;
+    width: 100%;
+  }
+}
+
+#forgot-pass {
+  text-align: start;
+  color: #2d66ce;
+  cursor: pointer;
+}
+
+.sign-up-btn {
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background: linear-gradient(to right, #8b6eff, #5a40d6);
+  cursor: pointer;
+  padding: 8px 0px;
+  margin: 10px 0px;
+}
+
+#login-path {
+  color: #2d66ce
+}
+
+.logo {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #c1aeff, #ffffff);
+}
+
+.login-container {
+  background-color: #0d182c;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  max-width: 250px;
+  width: 100%;
+
+  & a {
+    color: #2d66ce;
+    text-decoration: none;
+  }
+
+  & h1 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+  & p {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #9ca1b4;
+  }
+}
+
+.input-box {
+  background-color: #313b5e;
+  display: flex;
+  border-radius: 20px;
+  padding-left: 10px;
+  align-items: center;
+  margin: 15px 0px;
+
+  & input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding: 8px 0px;
+    padding-left: 10px;
+    color: white;
+    border-radius: 20px;
+    width: 100%;
+  }
+}
+
+#forgot-pass {
+  text-align: start;
+  color: #2d66ce;
+  cursor: pointer;
+}
+
+.login-btn {
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background: linear-gradient(to right, #8b6eff, #5a40d6);
+  cursor: pointer;
+  padding: 8px 0px;
+  margin: 10px 0px;
+}
+
+#signup-path {
+  color: #2d66ce
+}
+
+.logo {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+.user-profile {
+  position: relative;
+
+  & p {
+    background-color: #0d182c;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    align-content: center;
+    text-align: center;
+    color: white;
+  }
+
+  & ul {
+    padding: 8px;
+    background-color: rgba(128, 128, 128, 0.105);
+    border-radius: 5%;
+    position: absolute;
+    left: -100px;
+    width: 100px;
+    display: none;
+  }
+
+  & li {
+    list-style-type: none;
+    padding: 2px 6px;
+    color: rgba(0, 0, 0, 0.758);
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgba(128, 128, 128, 0.205);
+    }
+  }
+}
+
+.user-profile:hover ul {
+  display: block;
+}
+
+ul:hover ul {
+  display: block;
+}
+
+/* loader */
+.loading-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.loader {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid black;
+  border-top-color: transparent;
+  animation: spinner 0.5s linear infinite;
+}
+
+@keyframes spinner {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.otp-box {
+  text-align: center;
+}
+
+.otp-input {
+  width: 20px;
+  margin-right: 5px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #313b5e;
+  color: white;
+  font-size: 18px;
+}
+
+.verification {
+  max-width: 280px;
+  width: 100%;
+}
+
+.verif-email-btn {
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background: linear-gradient(to right, #8b6eff, #5a40d6);
+  cursor: pointer;
+  padding: 8px 0px;
+  margin: 20px 0px 10px 0px;
+}
+
+.reset-email-box {
+  border: none;
+  background-color: #313b5e;
+  outline: none;
+  padding: 8px 0px;
+  padding-left: 10px;
+  color: white;
+  border-radius: 20px;
+  width: 96%;
+  margin: 0px 0px 10px 0px
+}
+
+.homepage-loader-wrapper{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homepage-loader{
+  
+}
