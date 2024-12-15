@@ -8,7 +8,7 @@ import { useState } from 'react';
 function App() {
   const [loading, setLoading] = useState(false);
   const [isLogggedIn, setIsLoggedIn] = useState(false);
-  const baseUrl = "http://localhost:3000/api"
+  const baseUrl = "https://email-auth-one.vercel.app/api"
   const alert = (msg) => {
     toast(msg)
   }
